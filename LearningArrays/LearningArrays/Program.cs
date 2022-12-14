@@ -18,12 +18,12 @@ namespace LearningArrays
             }
             Console.WriteLine();
 
-            int[] Number = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+            int[] Number = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
             Array.Reverse(Number);
-            Console.Write("The array by descending order are: ");
-            foreach (var descending in Number)
+            Console.Write("An array by descending order are: ");
+            foreach (var Descending in Number)
             {
-                Console.Write(descending + " ");
+                Console.Write(Descending + " ");
             }
             Console.ReadKey();
         }
